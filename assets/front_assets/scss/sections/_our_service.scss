@@ -1,0 +1,31 @@
+/*---------------------------
+    Our Service 
+---------------------------*/
+.our-service-area{
+    padding: 120px 0 120px 0;
+    .single-service-box{
+        padding: 40px 20px 25px 20px;
+        @include transition($transition);
+        &:hover{
+            background-color: #fbfbfb;
+        }
+        .icon{
+            display: block;
+            margin-bottom: 28px;
+            &.two{
+                margin-bottom: 35px;
+            }
+        }
+        .content{
+            h4{
+                margin-bottom: 25px;
+                color: #222222;
+                font-weight: 500;
+                font-size: 28px;
+            }
+            p{
+
+            }
+        }
+    }
+}

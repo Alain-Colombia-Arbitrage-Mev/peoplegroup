@@ -1,0 +1,22 @@
+/*------------------------
+    News Area
+-------------------------*/
+.news-feeds-area{
+    padding: 120px 0;
+    .single-news-box-item{
+        .content{
+            border: 2px solid #f1f1f1;
+            border-top: none;
+            padding: 38px 38px 28px 38px;
+            .date-meta{
+                font-size: 14px;
+                font-weight: 400;
+                color: $base-color;
+            }
+            h4{
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+/*---------------------------
+    Features
+----------------------------*/
+.feature-area{
+    padding: 120px 0;
+    .our-feature-wrapper{
+        ul{
+            font-size: 0;
+            li{
+                display: inline-block;
+                width: 25%;
+                margin: 0;
+                padding: 0;
+                .single-feature-item {
+                    display: inline-block;
+                    padding: 30px 30px 15px 30px;
+                    border-collapse: collapse;
+                    border-top: 2px solid #f6f6f6;
+                    border-bottom: 2px solid #f6f6f6;
+                    @include transition($transition);
+                    &:hover{
+                        border-color: $base-color;
+                    }
+                    &:first-child{
+                        border-left: 2px solid #f6f6f6;
+                    }
+                    &.border-right{
+                        border-right: 2px solid #f6f6f6; 
+                    }
+                    .icon{
+                        font-size: 40px;
+                        line-height: 40px;
+                        &.three{
+                            padding-bottom: 3px;
+                        }
+                        &.four{
+                            padding-bottom: 3px;
+                        }
+                    }
+                    .content{
+                        padding-top: 20px;
+                        h4{
+                            font-size: 20px;
+                            margin-top: 0;
+                            margin-bottom: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

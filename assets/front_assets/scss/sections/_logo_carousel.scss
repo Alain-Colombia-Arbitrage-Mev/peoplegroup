@@ -1,0 +1,15 @@
+/*---------------------
+    Logo Carousel
+----------------------*/
+.logo-carousel-area{
+    padding: 100px 0;
+    .logo-carousel{
+        .single-logo-item{
+            padding: 20px;
+            @include transition($transition);
+            &:hover{
+                @include box-shadow(0,0,15px,rgba(0,0,0,.20),true);
+            }
+        }
+    }
+}

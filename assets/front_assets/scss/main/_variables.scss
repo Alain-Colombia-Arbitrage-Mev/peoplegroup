@@ -1,0 +1,84 @@
+/*------------------------
+	Css Indexing
+--------------------------
+--------------------------
+** @typography
+--------------------------
+** Global css
+--------------------------
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Navbar Area
+--------------------------
+** Header Area
+--------------------------
+--------------------------
+** Features 
+--------------------------
+--------------------------
+** Suitable Business
+--------------------------
+--------------------------
+** Our Service
+--------------------------
+--------------------------
+** Portfolio Area
+--------------------------
+--------------------------
+** Our Mission
+--------------------------
+--------------------------
+** Counter Area
+--------------------------
+--------------------------
+** Team Member Area
+--------------------------
+--------------------------
+** Video Area
+--------------------------
+--------------------------
+** News Area
+--------------------------
+--------------------------
+** Subscribe Area
+--------------------------
+--------------------------
+** Logo Carousel
+--------------------------
+--------------------------
+** Footer Area
+--------------------------
+*/ 
+$bootstrap-sass-asset-helper: false !default;
+
+//== Template Main Color
+$base-color: #ed1c24;
+
+$white: #fff;
+//== heading color
+$heading-color: #222222;
+$descr-color: #777777;
+//== section bg color
+$section-bg-color: #fbfbfb;
+/*-----------------
+    @Typography
+-----------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+$body-font:'Roboto',sans-serif;
+
+$base-font-size:          14px !default;
+$font-size-h1:            72px !default; 
+$font-size-h2:            62px !default; 
+$font-size-h3:            52px !default;  
+$font-size-h4:            20px !default;   
+//** Unit-less `line-height` for use in components like buttons.
+$line-height:        1.3 !default; // 24/15
+
+
+//  transition
+$transition: all .5s ease-in;
+$transition-long: all .9s ease-in;
+

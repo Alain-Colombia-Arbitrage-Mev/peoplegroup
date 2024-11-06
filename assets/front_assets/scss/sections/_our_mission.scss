@@ -1,0 +1,65 @@
+/*-----------------------
+    Our Mission
+-----------------------*/
+.progressbar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    background-color: #f4f4f4;
+    //box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.proggress {
+    height: 8px;
+    width: 10px;
+    background-color: $base-color;
+}
+
+.percentCount {
+    float: right;
+    font-size: 18px;
+    color:$base-color;
+    margin-top: -42px;
+    clear: both;
+}
+.our-mission-area{
+    padding: 120px 0 105px 0;
+    .left-conter{
+        position: relative;
+        z-index: 1;
+        .bg-text{
+            position: absolute;
+            font-size: 200px;
+            top: -50px;
+            left: -150px;
+            font-weight: 700;
+            z-index: -1;
+            color: #f8f8f8;
+        }
+        h3{
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .icon{
+            display: block;
+            margin-bottom: 28px;
+        }
+        p{
+            color: #777777;
+            font-size: 14px;
+        }
+    }
+    .right-content{
+        padding-top: 50px;
+        .studio-progressbar{
+            .progress-name{
+                font-size: 18px;
+                color: #222;
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

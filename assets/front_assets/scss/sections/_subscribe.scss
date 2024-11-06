@@ -1,0 +1,60 @@
+/*--------------------
+    Subscribe Area
+---------------------*/
+.subscribe-area {
+    padding: 85px 0 120px 0;
+    position: relative;
+    background-color: $base-color;
+    z-index: 1;
+    .bg-text{
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 200px;
+        color: rgba(255,255,255,.05);
+        font-weight: 700;
+        z-index: -1;
+        padding-top: 80px;
+    }
+    .subscriber-wrapper{
+        h2{
+            font-size: 52px;
+            color: $white;
+            font-weight: 500;
+        }
+        .form-wrapper{
+            margin-top: 50px;
+            position: relative;
+            input[type=email]{
+                background-color: transparent;
+                padding: 13px 25px;
+                border-radius: 25px;
+                border: 4px solid rgba(255,255,255,.50);
+                width: 100%;
+                padding-right: 150px;
+                @include placeholder-color(rgba(255, 255, 255, .50));
+                color: $white;
+            }
+            input[type=submit]{
+                padding: 12px 25px;
+                border-radius: 25px;
+                border: none;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: $white;
+                color: $base-color;
+                position: absolute;
+                top: 4px;
+                right: 3px;
+                @include transition($transition);
+                &:hover{
+                   opacity: .8;
+                }
+            }
+        }
+    }
+}

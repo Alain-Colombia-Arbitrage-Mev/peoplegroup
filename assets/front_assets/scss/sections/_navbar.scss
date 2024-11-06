@@ -1,0 +1,22 @@
+/*------------------------------
+    Navbar Area
+------------------------------*/
+.navbar-area {
+    ul{
+        text-align: right;
+        li{
+            display: inline-block;
+            padding: 50px 18px;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            a{
+                color: $white;
+                @include transition($transition);
+                &:hover {
+                    color: $base-color;
+                }
+            }
+        }
+    }
+}
